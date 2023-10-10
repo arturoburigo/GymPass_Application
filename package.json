@@ -1,0 +1,24 @@
+{
+  "name": "nodeapi_solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.8.4",
+    "tsup": "7.2.0",
+    "tsx": "3.13.0",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "fastify": "4.23.2"
+  }
+}
