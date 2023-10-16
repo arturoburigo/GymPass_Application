@@ -1,5 +1,11 @@
 {
     "extends": [
-        "@rocketseat/eslint-config/node"
-    ]
-}
+      "@rocketseat/eslint-config/node"
+    ],
+    "rules": {
+      "prettier/prettier": "off",
+      "eslint-disable camelcase": "off",
+      
+    }
+  }
+  

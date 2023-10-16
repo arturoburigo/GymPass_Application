@@ -1,6 +1,7 @@
+/* eslint-disable prettier/prettier */
 import fastify from 'fastify'
-import { createUser } from './http/controllers/register-controller'
+import { appRoutes } from './http/routes'
 
 export const app = fastify()
 
-app.post('/users', createUser)
+app.register(appRoutes)
