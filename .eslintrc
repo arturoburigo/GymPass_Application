@@ -1,11 +1,11 @@
 {
-    "extends": [
-      "@rocketseat/eslint-config/node"
-    ],
-    "rules": {
-      "prettier/prettier": "off",
-      "eslint-disable camelcase": "off",
-      
-    }
+  "extends": [
+    "@rocketseat/eslint-config/node"
+  ],
+  "rules": {
+    "prettier/prettier": "off",
+    "eslint-disable camelcase": "off",
+    "no-useless-constructor": "off",
+    "disable-next-line camelcase": "off"
   }
-  
+}
